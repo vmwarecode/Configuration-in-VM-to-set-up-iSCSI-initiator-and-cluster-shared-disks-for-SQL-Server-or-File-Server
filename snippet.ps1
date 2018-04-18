@@ -15,8 +15,6 @@ Set-MPIOSetting -CustomPathRecovery Enabled -NewPathRecoveryInterval 20 -NewRetr
 # As iSCSI service only supports active/passive HA; we must set the load balance policy as failover only. Use the following script to enable automatic identification on FOO for vSAN iSCSI target
 mpclaim -l -t "VMware  Virtual SAN     "  1
 
-
-
 #Discover the target on each node of the Windows cluster and connect them
 #Use the sample code below to discover the target on each node of the cluster and connect them using multiple connections for failover purpose. 
 #Note: replace the IP address of the iSCSI vmk kernel IP address.  We use four hosts with vmk kernel ip address as an example.
