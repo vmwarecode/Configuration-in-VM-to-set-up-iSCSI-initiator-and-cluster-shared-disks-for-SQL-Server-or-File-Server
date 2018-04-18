@@ -1,0 +1,1 @@
+# Configuration-in-VM-to-set-up-iSCSI-initiator-and-cluster-shared-disks-for-SQL-Server-or-File-Server
